@@ -1,0 +1,6 @@
+@import '../_variables';
+
+.footer {
+  background-image: linear-gradient(-100deg, $color-primary , $color-secundary );
+  border-top: 0.15rem solid #ffff;
+}

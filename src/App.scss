@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-back {
+  background-image: url("../src/assets/background.png");
+  background-size: 20rem;
+  background-repeat: repeat;
+
+}
+    

@@ -1,0 +1,17 @@
+@import '../_variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.navbar {
+  position: fixed;
+  background-image: linear-gradient(100deg, $color-primary , $color-secundary );
+  border-bottom: 0.15rem solid #ffff;
+  font-family: 'Press Start 2P';
+  padding-left: 4rem;
+  
+  @media screen and (min-width: 720px) {
+    max-height: 4.2rem;
+  }
+
+}
+

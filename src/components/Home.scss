@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "../_variables";
+
+.home-title{
+  color: linear-gradient(-135deg, #000000, #000);
+  background-color: $color-green;
+  font-family: "Press Start 2P";
+  font-size: 2rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-left: 6rem;
+  border-radius: 20px;
+
+  @media screen and (min-width: 720px) {
+    font-size: 4rem;
+    padding-left: 25rem;
+    border-radius: 20px;
+  }
+
+}
+
+.home-img {
+margin:auto auto;
+border-radius:40px;
+border-color:solid 40px #fff;
+}
