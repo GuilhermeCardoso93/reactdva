@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import { Card, CardGroup, Row, Col, Container } from "react-bootstrap";
 import canhao from "../assets/habilidades/canhao.png";
 import props from "../assets/habilidades/props.png";
@@ -215,16 +209,6 @@ const Hero2 = () => (
          </section>
       
   </Container>
-  <iframe
-        className="video"
-        width="320"
-        height="315"
-        src="https://www.youtube.com/embed/YO5HPWjMSa8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
   </div>
 );
 

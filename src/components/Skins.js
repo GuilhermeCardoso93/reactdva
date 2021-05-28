@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Carousel, Container, Row } from "react-bootstrap";
 import "./Skins.scss";
 import skin1 from "../assets/skins/skin1.jpg";
 import skin2 from "../assets/skins/skin2.png";
@@ -12,7 +12,7 @@ import pin from "../assets/pixel5.png";
 const Skins = () => {
   return (
     <div className="mt-5 pt-5 pb-5">
-      <Container expand="lg" className="skin-container">
+      <Container expand="lg" className="skin-container pb-5">
         <section className="container-skin   text-light lg-p-2">
           <h2 className="title m-t4 pt-2">
             Skins
@@ -87,10 +87,19 @@ const Skins = () => {
             </Carousel.Item>
           </Carousel>
         </section>
-        
       </Container>
-      <iframe className='video' width="320" height="315" src="https://www.youtube.com/embed/zlEWKEQsgeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+      <Row className="my-5 mx-5" expand="lg">
+        <iframe
+        className='video'
+          width="320"
+          height="315"
+          src="https://www.youtube.com/embed/zlEWKEQsgeQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </Row>
     </div>
   );
 };

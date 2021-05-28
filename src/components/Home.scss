@@ -19,8 +19,12 @@
 
 }
 
-.home-img {
-margin:auto auto;
-border-radius:40px;
-border-color:solid 40px #fff;
+
+
+.img-responsive {
+	max-width: 100%; 
+	height: auto; 
+	display:block;
+  margin:auto auto;
+border-radius:20px;
 }
